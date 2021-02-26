@@ -5,7 +5,7 @@ namespace ConsoleApp1
     class Program
     {
         //выводим поле
-        static void table(string[,] arr)
+        static void Table(string[,] arr)
         {
             for (int i = 0; i < arr.GetLength(0); i++)
             {
@@ -308,8 +308,8 @@ namespace ConsoleApp1
             }
 
             int value = 0, progress1 = 0, progress2 = 0;
-            string Exit = "";
-            while (Exit != "exit" && !TestAll(arr))
+            string exit = "";
+            while (exit != "exit" && !TestAll(arr))
             {
                 Random random = new Random();
                 int length = random.Next(1, 7);
@@ -317,7 +317,7 @@ namespace ConsoleApp1
                 Console.Clear();
                 Console.WriteLine("Ход " + (value % 2 + 1) + " игрока\n"
                 + "Сгенерированные числа:" + length + " " + width);
-                table(arr);
+                Table(arr);
                 Console.WriteLine("Чтобы пропустить ход введите skip, в противном случае нажмите Enter");
                 skip = Console.ReadLine();
                 value++;
@@ -391,10 +391,10 @@ namespace ConsoleApp1
                 || !TestStartAngle(x1, y1, x2, y2, progress1, progress2, value % 2)
                 || !TestHomeTerritory(x1, y1, x2, y2, arr, progress1, progress2, value % 2));
                 PlayerTurn(x1, y1, x2, y2, arr, value % 2);
-                table(arr);
+                Table(arr);
                 Console.WriteLine("Если желаете закончить игру введите exit," +
                     " в противном случае нажмите Enter");
-                Exit = Console.ReadLine();
+                exit = Console.ReadLine();
             }
 
             int sum1 = 0, sum2 = 0;
