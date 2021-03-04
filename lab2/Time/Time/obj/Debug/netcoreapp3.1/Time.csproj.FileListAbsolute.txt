@@ -1,0 +1,13 @@
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Time\Time\bin\Debug\netcoreapp3.1\Time.exe
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Time\Time\bin\Debug\netcoreapp3.1\Time.deps.json
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Time\Time\bin\Debug\netcoreapp3.1\Time.runtimeconfig.json
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Time\Time\bin\Debug\netcoreapp3.1\Time.runtimeconfig.dev.json
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Time\Time\bin\Debug\netcoreapp3.1\Time.dll
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Time\Time\bin\Debug\netcoreapp3.1\Time.pdb
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Time\Time\obj\Debug\netcoreapp3.1\Time.AssemblyInfoInputs.cache
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Time\Time\obj\Debug\netcoreapp3.1\Time.AssemblyInfo.cs
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Time\Time\obj\Debug\netcoreapp3.1\Time.csproj.CoreCompileInputs.cache
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Time\Time\obj\Debug\netcoreapp3.1\Time.dll
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Time\Time\obj\Debug\netcoreapp3.1\Time.pdb
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Time\Time\obj\Debug\netcoreapp3.1\Time.genruntimeconfig.cache
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Time\Time\obj\Debug\netcoreapp3.1\Time.csprojAssemblyReference.cache

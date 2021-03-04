@@ -1,0 +1,13 @@
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Word\Word\bin\Debug\netcoreapp3.1\Word.exe
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Word\Word\bin\Debug\netcoreapp3.1\Word.deps.json
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Word\Word\bin\Debug\netcoreapp3.1\Word.runtimeconfig.json
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Word\Word\bin\Debug\netcoreapp3.1\Word.runtimeconfig.dev.json
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Word\Word\bin\Debug\netcoreapp3.1\Word.dll
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Word\Word\bin\Debug\netcoreapp3.1\Word.pdb
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Word\Word\obj\Debug\netcoreapp3.1\Word.csprojAssemblyReference.cache
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Word\Word\obj\Debug\netcoreapp3.1\Word.AssemblyInfoInputs.cache
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Word\Word\obj\Debug\netcoreapp3.1\Word.AssemblyInfo.cs
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Word\Word\obj\Debug\netcoreapp3.1\Word.csproj.CoreCompileInputs.cache
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Word\Word\obj\Debug\netcoreapp3.1\Word.dll
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Word\Word\obj\Debug\netcoreapp3.1\Word.pdb
+C:\Users\1mish\Desktop\лабы с#\лаба 2\Word\Word\obj\Debug\netcoreapp3.1\Word.genruntimeconfig.cache
