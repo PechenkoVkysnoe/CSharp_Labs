@@ -8,42 +8,79 @@ namespace Time
         {
             DateTime data = DateTime.Now;
             Console.WriteLine(data.ToString("dd.MM.yyyy HH:mm:ss"));
-            Console.WriteLine(data.ToString("MM.dd.yyyy HH:mm:ss"));
-            string strDate = data.ToString();
-            int[] arr = new int[10];
-            for (int i = 0; i < strDate.Length; i++)
+            Console.WriteLine(data.ToString("MM.dd.yyyy hh:mm:ss"));
+            string firstStrDate = data.ToString("dd.MM.yyyy HH:mm:ss");
+            string secondStrDate = data.ToString("MM.dd.yyyy hh:mm:ss");
+            int[] firstArr = new int[10];
+            int[] secondArr = new int[10];
+            for (int i = 0; i < firstStrDate.Length; i++)
             {
-                switch (strDate[i])
+                switch (firstStrDate[i])
                 {
                     case '0':
-                        arr[0]++;
+                        firstArr[0]++;
                         break;
                     case '1':
-                        arr[1]++;
+                        firstArr[1]++;
                         break;
                     case '2':
-                        arr[2]++;
+                        firstArr[2]++;
                         break;
                     case '3':
-                        arr[3]++;
+                        firstArr[3]++;
                         break;
                     case '4':
-                        arr[4]++;
+                        firstArr[4]++;
                         break;
                     case '5':
-                        arr[5]++;
+                        firstArr[5]++;
                         break;
                     case '6':
-                        arr[6]++;
+                        firstArr[6]++;
                         break;
                     case '7':
-                        arr[7]++;
+                        firstArr[7]++;
                         break;
                     case '8':
-                        arr[8]++;
+                        firstArr[8]++;
                         break;
                     case '9':
-                        arr[9]++;
+                        firstArr[9]++;
+                        break;
+                    default:
+                        break;
+                }
+                switch (secondStrDate[i])
+                {
+                    case '0':
+                        secondArr[0]++;
+                        break;
+                    case '1':
+                        secondArr[1]++;
+                        break;
+                    case '2':
+                        secondArr[2]++;
+                        break;
+                    case '3':
+                        secondArr[3]++;
+                        break;
+                    case '4':
+                        secondArr[4]++;
+                        break;
+                    case '5':
+                        secondArr[5]++;
+                        break;
+                    case '6':
+                        secondArr[6]++;
+                        break;
+                    case '7':
+                        secondArr[7]++;
+                        break;
+                    case '8':
+                        secondArr[8]++;
+                        break;
+                    case '9':
+                        secondArr[9]++;
                         break;
                     default:
                         break;
@@ -51,7 +88,7 @@ namespace Time
             }
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("quantity " + i + ": " + arr[i]);
+                Console.WriteLine("quantity " + i + ": " + firstArr[i]+", "+ secondArr[i]);
             }
         }
     }
