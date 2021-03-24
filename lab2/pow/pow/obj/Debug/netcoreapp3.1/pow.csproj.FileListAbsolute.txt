@@ -11,3 +11,16 @@ C:\Users\1mish\Desktop\лабы с#\лаба 2\pow\pow\obj\Debug\netcoreapp3.1\p
 C:\Users\1mish\Desktop\лабы с#\лаба 2\pow\pow\obj\Debug\netcoreapp3.1\pow.pdb
 C:\Users\1mish\Desktop\лабы с#\лаба 2\pow\pow\obj\Debug\netcoreapp3.1\pow.genruntimeconfig.cache
 C:\Users\1mish\Desktop\лабы с#\лаба 2\pow\pow\obj\Debug\netcoreapp3.1\pow.csprojAssemblyReference.cache
+C:\Users\1mish\Desktop\CSharp_Labs\lab2\pow\pow\bin\Debug\netcoreapp3.1\pow.exe
+C:\Users\1mish\Desktop\CSharp_Labs\lab2\pow\pow\bin\Debug\netcoreapp3.1\pow.deps.json
+C:\Users\1mish\Desktop\CSharp_Labs\lab2\pow\pow\bin\Debug\netcoreapp3.1\pow.runtimeconfig.json
+C:\Users\1mish\Desktop\CSharp_Labs\lab2\pow\pow\bin\Debug\netcoreapp3.1\pow.runtimeconfig.dev.json
+C:\Users\1mish\Desktop\CSharp_Labs\lab2\pow\pow\bin\Debug\netcoreapp3.1\pow.dll
+C:\Users\1mish\Desktop\CSharp_Labs\lab2\pow\pow\bin\Debug\netcoreapp3.1\pow.pdb
+C:\Users\1mish\Desktop\CSharp_Labs\lab2\pow\pow\obj\Debug\netcoreapp3.1\pow.csprojAssemblyReference.cache
+C:\Users\1mish\Desktop\CSharp_Labs\lab2\pow\pow\obj\Debug\netcoreapp3.1\pow.AssemblyInfoInputs.cache
+C:\Users\1mish\Desktop\CSharp_Labs\lab2\pow\pow\obj\Debug\netcoreapp3.1\pow.AssemblyInfo.cs
+C:\Users\1mish\Desktop\CSharp_Labs\lab2\pow\pow\obj\Debug\netcoreapp3.1\pow.csproj.CoreCompileInputs.cache
+C:\Users\1mish\Desktop\CSharp_Labs\lab2\pow\pow\obj\Debug\netcoreapp3.1\pow.dll
+C:\Users\1mish\Desktop\CSharp_Labs\lab2\pow\pow\obj\Debug\netcoreapp3.1\pow.pdb
+C:\Users\1mish\Desktop\CSharp_Labs\lab2\pow\pow\obj\Debug\netcoreapp3.1\pow.genruntimeconfig.cache
