@@ -1,0 +1,24 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (MathLibraty.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  MathLibrary.cpp
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.cpp(5,1): warning C4273: Add: несовместимое связывание dll
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.h(8,43): message : см. предыдущее определение "Add"
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.cpp(9,1): warning C4273: Subtraction: несовместимое связывание dll
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.h(9,43): message : см. предыдущее определение "Subtraction"
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.cpp(13,1): warning C4273: Multiplication: несовместимое связывание dll
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.h(10,43): message : см. предыдущее определение "Multiplication"
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.cpp(17,1): warning C4273: Division: несовместимое связывание dll
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.h(11,43): message : см. предыдущее определение "Division"
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.cpp(21,1): warning C4273: Abs: несовместимое связывание dll
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.h(12,43): message : см. предыдущее определение "Abs"
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.cpp(25,1): warning C4273: Opposite: несовместимое связывание dll
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.h(13,43): message : см. предыдущее определение "Opposite"
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.cpp(29,1): warning C4273: Mirror: несовместимое связывание dll
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.h(14,43): message : см. предыдущее определение "Mirror"
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.cpp(33,1): warning C4273: Minimal: несовместимое связывание dll
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.h(15,43): message : см. предыдущее определение "Minimal"
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.cpp(37,1): warning C4273: Maximum: несовместимое связывание dll
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.h(16,43): message : см. предыдущее определение "Maximum"
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.cpp(41,1): warning C4273: Pow: несовместимое связывание dll
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.h(17,43): message : см. предыдущее определение "Pow"
+C:\Users\1mish\source\repos\MathLibraty\MathLibraty\MathLibrary.cpp(43,20): warning C4018: <: несоответствие типов со знаком и без знака
+  MathLibraty.vcxproj -> C:\Users\1mish\source\repos\MathLibraty\x64\Debug\MathLibrary.dll

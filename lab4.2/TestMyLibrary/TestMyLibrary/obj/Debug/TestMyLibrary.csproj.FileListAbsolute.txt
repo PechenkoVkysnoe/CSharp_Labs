@@ -1,0 +1,7 @@
+C:\Users\1mish\source\repos\TestMyLibrary\TestMyLibrary\bin\Debug\TestMyLibrary.exe.config
+C:\Users\1mish\source\repos\TestMyLibrary\TestMyLibrary\bin\Debug\TestMyLibrary.exe
+C:\Users\1mish\source\repos\TestMyLibrary\TestMyLibrary\bin\Debug\TestMyLibrary.pdb
+C:\Users\1mish\source\repos\TestMyLibrary\TestMyLibrary\obj\Debug\TestMyLibrary.csprojAssemblyReference.cache
+C:\Users\1mish\source\repos\TestMyLibrary\TestMyLibrary\obj\Debug\TestMyLibrary.csproj.CoreCompileInputs.cache
+C:\Users\1mish\source\repos\TestMyLibrary\TestMyLibrary\obj\Debug\TestMyLibrary.exe
+C:\Users\1mish\source\repos\TestMyLibrary\TestMyLibrary\obj\Debug\TestMyLibrary.pdb
