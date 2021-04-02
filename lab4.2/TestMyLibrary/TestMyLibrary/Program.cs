@@ -19,11 +19,11 @@ namespace UnmanagedCode
         static extern double Opposite(double firstValue);
         [DllImport("MathLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern double Mirror(double firstValue);
-        [DllImport("MathLibrary.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport("MathLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern double Minimal(double firstValue, int secondValue);
-        [DllImport("MathLibrary.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport("MathLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern double Maximum(double firstValue, int secondValue);
-        [DllImport("MathLibrary.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport("MathLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern double Pow(double firstValue, uint secondValue);
         static void Main()
         {
