@@ -7,13 +7,10 @@ namespace UnmanagedCode
     {
         [DllImport("MathLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern double Add(double firstValue, double secondValue);
-
         [DllImport("MathLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern double Subtraction(double firstValue, double secondValue);
-
         [DllImport("MathLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern double Multiplication(double firstValue, double secondValue);
-
         [DllImport("MathLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern double Division(double firstValue, double secondValue);
         [DllImport("MathLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
