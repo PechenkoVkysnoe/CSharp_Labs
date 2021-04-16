@@ -57,7 +57,7 @@ namespace laba3
         {
             Random rnd = new Random();
             int chance = rnd.Next(42, 90);
-            if (chance<60)
+            if (chance<50)
             {
                 DoNotPassLaboratory();
             }

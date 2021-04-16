@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1mish\\Desktop\\CSharp_Labs\\lab3\\People\\People\\People.csproj": {}
+    "C:\\Users\\1mish\\Desktop\\CSharp_Labs\\lab3_5\\People\\People\\People.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1mish\\Desktop\\CSharp_Labs\\lab3\\People\\People\\People.csproj": {
+    "C:\\Users\\1mish\\Desktop\\CSharp_Labs\\lab3_5\\People\\People\\People.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1mish\\Desktop\\CSharp_Labs\\lab3\\People\\People\\People.csproj",
+        "projectUniqueName": "C:\\Users\\1mish\\Desktop\\CSharp_Labs\\lab3_5\\People\\People\\People.csproj",
         "projectName": "People",
-        "projectPath": "C:\\Users\\1mish\\Desktop\\CSharp_Labs\\lab3\\People\\People\\People.csproj",
+        "projectPath": "C:\\Users\\1mish\\Desktop\\CSharp_Labs\\lab3_5\\People\\People\\People.csproj",
         "packagesPath": "C:\\Users\\1mish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1mish\\Desktop\\CSharp_Labs\\lab3\\People\\People\\obj\\",
+        "outputPath": "C:\\Users\\1mish\\Desktop\\CSharp_Labs\\lab3_5\\People\\People\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\1mish\\AppData\\Roaming\\NuGet\\NuGet.Config",
