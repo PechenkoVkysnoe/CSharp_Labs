@@ -6,7 +6,7 @@ namespace laba3
     {
         List<People> humans;
         public People this[int index]
-        {
+        { 
             set
             {
                 humans.Insert(index, value);
@@ -26,7 +26,7 @@ namespace laba3
     }
     class People
     {
-        private Guid id;
+        protected Guid id;
         public int age { get; set; }
         public string firstName { get; set; }
         public string secondName { get; set; }
@@ -48,7 +48,7 @@ namespace laba3
             this.sex = sex; this.age = age;
             id = Guid.NewGuid();
         }
-        public void GetInfo()
+        public virtual void GetInfo()
         {
             Console.WriteLine("Information");
             Console.WriteLine($"Id: {id}");
