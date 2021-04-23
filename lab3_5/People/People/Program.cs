@@ -37,6 +37,8 @@ namespace laba3
             Friend.TakeCourseEnglish();
             Friend.Translate();
             Friend.GetInfo();
+            People Teacher = new People("Константин", "Вильчевский","Юрьевич", Sex.Man, 24);
+            Console.WriteLine(I.CompareTo(Teacher));
         }
     }
 }

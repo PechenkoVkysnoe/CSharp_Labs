@@ -2,7 +2,7 @@
 
 namespace laba3
 {
-     class Student : People
+     class Student : People, IRelax
     {
         public enum University
         {
@@ -66,6 +66,19 @@ namespace laba3
             Console.WriteLine($"Free Education: {freeEducation}");
             Console.WriteLine($"Grant: {grant}");
             Console.WriteLine($"Chance Deducted: {chanceDeducted}");
+        }
+        public void DoSport()
+        {
+            Console.WriteLine(this.firstName + " is running");
+        }
+        public void Read()
+        {
+            Console.WriteLine(this.firstName + " is reading");
+        }
+        public void HaveFun()
+
+        {
+            Console.WriteLine(this.firstName + " is happy right now");
         }
     }
 }

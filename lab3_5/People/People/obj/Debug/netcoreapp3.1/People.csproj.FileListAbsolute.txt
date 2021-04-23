@@ -24,3 +24,16 @@ C:\Users\1mish\Desktop\CSharp_Labs\lab3\People\People\obj\Debug\netcoreapp3.1\Pe
 C:\Users\1mish\Desktop\CSharp_Labs\lab3\People\People\obj\Debug\netcoreapp3.1\People.dll
 C:\Users\1mish\Desktop\CSharp_Labs\lab3\People\People\obj\Debug\netcoreapp3.1\People.pdb
 C:\Users\1mish\Desktop\CSharp_Labs\lab3\People\People\obj\Debug\netcoreapp3.1\People.genruntimeconfig.cache
+C:\Users\1mish\Desktop\CSharp_Labs\lab3_5\People\People\bin\Debug\netcoreapp3.1\People.exe
+C:\Users\1mish\Desktop\CSharp_Labs\lab3_5\People\People\bin\Debug\netcoreapp3.1\People.deps.json
+C:\Users\1mish\Desktop\CSharp_Labs\lab3_5\People\People\bin\Debug\netcoreapp3.1\People.runtimeconfig.json
+C:\Users\1mish\Desktop\CSharp_Labs\lab3_5\People\People\bin\Debug\netcoreapp3.1\People.runtimeconfig.dev.json
+C:\Users\1mish\Desktop\CSharp_Labs\lab3_5\People\People\bin\Debug\netcoreapp3.1\People.dll
+C:\Users\1mish\Desktop\CSharp_Labs\lab3_5\People\People\bin\Debug\netcoreapp3.1\People.pdb
+C:\Users\1mish\Desktop\CSharp_Labs\lab3_5\People\People\obj\Debug\netcoreapp3.1\People.csprojAssemblyReference.cache
+C:\Users\1mish\Desktop\CSharp_Labs\lab3_5\People\People\obj\Debug\netcoreapp3.1\People.AssemblyInfoInputs.cache
+C:\Users\1mish\Desktop\CSharp_Labs\lab3_5\People\People\obj\Debug\netcoreapp3.1\People.AssemblyInfo.cs
+C:\Users\1mish\Desktop\CSharp_Labs\lab3_5\People\People\obj\Debug\netcoreapp3.1\People.csproj.CoreCompileInputs.cache
+C:\Users\1mish\Desktop\CSharp_Labs\lab3_5\People\People\obj\Debug\netcoreapp3.1\People.dll
+C:\Users\1mish\Desktop\CSharp_Labs\lab3_5\People\People\obj\Debug\netcoreapp3.1\People.pdb
+C:\Users\1mish\Desktop\CSharp_Labs\lab3_5\People\People\obj\Debug\netcoreapp3.1\People.genruntimeconfig.cache

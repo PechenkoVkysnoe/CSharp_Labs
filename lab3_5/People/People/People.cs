@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+
 namespace laba3
 {
     class Humans
@@ -24,7 +26,7 @@ namespace laba3
         }
         private int numberOfHumans;
     }
-    class People
+    class People:IComparable<People>
     {
         protected Guid id;
         public int age { get; set; }
@@ -57,6 +59,22 @@ namespace laba3
             Console.WriteLine($"ThirdName: {thirdName}");
             Console.WriteLine($"Sex: {sex}");
             Console.WriteLine($"Age: {age}");
+        }
+
+        public int CompareTo(People other)
+        {
+            if (this.age>other.age)
+            {
+                return 1;
+            }
+            else if (this.age == other.age)
+            {
+                return 0;
+            }
+            else
+            {
+                return -1;
+            }
         }
     }
 }
