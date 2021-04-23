@@ -18,7 +18,7 @@ namespace laba3
             Humans family = new Humans();
             family[0] = Mam;
             Console.WriteLine($"Age: {family[0].age}");
-            Student Sister = new Student("Анна", "Григорчук", "Александровна", Sex.Women, 21, Student.University.BNTU, 5, true,true);
+            Student Sister = new TranslatorStudent("Анна", "Григорчук", "Александровна", Sex.Women, 21, Student.University.BNTU, 5, true,true,TranslatorStudent.MainLanguage.English, TranslatorStudent.LanguageEnglish.C1);
             Sister.GetInfo();
             Sister.PickUpGrant();
             Sister.GetInfo();
