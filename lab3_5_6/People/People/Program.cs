@@ -39,6 +39,8 @@ namespace laba3
             Friend.GetInfo();
             People Teacher = new People("Константин", "Вильчевский","Юрьевич", Sex.Man, 24);
             Console.WriteLine(I.CompareTo(Teacher));
+            IRelax relax = new Student("Иван", "Иванов", "Иванов", Sex.Man, 20, Student.University.GRSU, 2, true, true);
+            relax.DoSport();
         }
     }
 }
