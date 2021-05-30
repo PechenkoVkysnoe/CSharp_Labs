@@ -24,7 +24,7 @@ namespace laba3
             Sister.GetInfo();
             Sister.Deduct();
             Sister.GetInfo();
-            ITStudent I = new ITStudent("Михаил", "Григорчук", "Александрович", Sex.Man, 19, Student.University.BSUIR, 1, true, true, ITStudent.MainProgrammingLanguage.cSharp, ITStudent.LanguageEnglish.A2, true);
+            ITStudent I = new ITStudent("Михаил", "Григорчук", "Александрович", Sex.Man, 19, Student.University.BSUIR, 1, true, true, ITStudent.MainProgrammingLanguage.cSharp, ITStudent.LanguageEnglish.A2, true,0);
             I.GetInfo();
             I.TakeCourseEnglish();
             I.WriteLaboratory();
@@ -32,6 +32,11 @@ namespace laba3
             I.PickUpGrant();
             I.GetInfo();
             I.Deduct();
+            I.Notify += mes => Console.WriteLine(mes);
+            I.Put(10);
+            I.Put(20);
+            I.Take(20);
+            Console.Read();
             I.GetInfo();
             TranslatorStudent Friend = new TranslatorStudent("Иван", "Иванов", "Иванов", Sex.Man, 20, Student.University.GRSU, 2, false, false, TranslatorStudent.MainLanguage.English, TranslatorStudent.LanguageEnglish.C1);
             Friend.TakeCourseEnglish();
@@ -41,6 +46,10 @@ namespace laba3
             Console.WriteLine(I.CompareTo(Teacher));
             IRelax relax = new Student("Иван", "Иванов", "Иванов", Sex.Man, 20, Student.University.GRSU, 2, true, true);
             relax.DoSport();
+        }
+        private static void DisplayMessage(string message)
+        {
+            Console.WriteLine(message);
         }
     }
 }

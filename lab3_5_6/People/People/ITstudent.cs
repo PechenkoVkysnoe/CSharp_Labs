@@ -27,12 +27,32 @@ namespace laba3
         }
         public LanguageEnglish languageEnglish { get; set; }
         public bool work { get; set; }
-        public ITStudent(string firstName, string secondName, string thirdName, Sex sex, int age, University university, int course, bool grant, bool freeEducation, MainProgrammingLanguage mainProgrammingLanguage, LanguageEnglish languageEnglish, bool work)
+        public ITStudent(string firstName, string secondName, string thirdName, Sex sex, int age, University university, int course, bool grant, bool freeEducation, MainProgrammingLanguage mainProgrammingLanguage, LanguageEnglish languageEnglish, bool work,int sum)
             : base(firstName, secondName, thirdName, sex, age,university,course,grant,freeEducation)
         {
             this.languageEnglish = languageEnglish;
             this.mainProgrammingLanguage = mainProgrammingLanguage;
             this.work = work;
+        }
+        public delegate void MoneyHandler(string message);
+        public event MoneyHandler Notify;
+        public int sum { get; private set; }
+        public void Put(int _sum)
+        {
+            sum += _sum;
+            Notify?.Invoke($"На счет поступило: {_sum}");
+        }
+        public void Take(int _sum)
+        {
+            if (sum>=_sum)
+            {
+                sum -= _sum;
+                Notify?.Invoke($"Со счета снято: {-sum}");
+            }
+            else
+            {
+                Notify?.Invoke($"Недостаточно денег на счете. Текущий баланс: {sum}"); ;
+            }
         }
         public void ChangeMainProgrammingLanguage(MainProgrammingLanguage mainProgrammingLanguage)
         {
@@ -82,6 +102,7 @@ namespace laba3
             Console.WriteLine($"Main Programming Language: {mainProgrammingLanguage}");
             Console.WriteLine($"Language English: {languageEnglish}");
             Console.WriteLine($"Work: {work}");
+            Console.WriteLine($"Money: {sum}");
         }
     }
 }
